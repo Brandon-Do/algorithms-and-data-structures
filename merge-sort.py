@@ -5,6 +5,11 @@ def get_random_ints(count: int, lower_bound = 0, upper_bound = 10000) -> list:
   return [random.randint(lower_bound, upper_bound) for _ in range(count)]
 
 
+"""
+  Implemented merge sort here
+  Time: O(nlogn) -- scan the array each split
+  Space: O(n) -- need to hold a copy of the array in memory
+"""
 def merge_sort(nums: list) -> list:
   if len(nums) <= 1:
     return nums
