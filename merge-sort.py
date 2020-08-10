@@ -1,3 +1,5 @@
+from common import get_random_ints
+
 """
   Implemented merge sort here
   Time: O(nlogn) -- scan the array each split
