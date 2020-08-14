@@ -1,7 +1,7 @@
 import random
 
 
-def get_random_ints(count: int, lower_bound = 0, upper_bound = 10000) -> list:
+def get_random_ints(count: int, lower_bound = 0, upper_bound = 99) -> list:
   return [random.randint(lower_bound, upper_bound) for _ in range(count)]
 
 
