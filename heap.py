@@ -26,9 +26,10 @@ Testing to see if the heapify operation
 def test_heap_order_with_tuples():
   nums = get_random_ints(100, 0, 1)
   nums_with_inds = [(n, i) for i, n in enumerate(nums)]
-  heapify(nums_with_inds)
   
+  heapify(nums_with_inds)
   res = []
+  
   while nums_with_inds:
     res.append(heappop(nums_with_inds))
   
