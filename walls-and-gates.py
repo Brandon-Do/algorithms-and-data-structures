@@ -72,7 +72,8 @@ if __name__ == "__main__":
       [float('inf'),-1,0,float('inf')],
       [float('inf'),float('inf'),float('inf'),-1],
       [float('inf'),-1,float('inf'),-1],
-      [0,-1,float('inf'),float('inf')]]
+      [0,-1,float('inf'),float('inf')]
+    ]
 
     solution.walls_and_gates(rooms)
     
