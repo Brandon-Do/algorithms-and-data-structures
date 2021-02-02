@@ -66,8 +66,6 @@ class Solution(object):
   
 
 if __name__ == "__main__":
-    solution = Solution()
-
     rooms = [
       [float('inf'),-1,0,float('inf')],
       [float('inf'),float('inf'),float('inf'),-1],
@@ -75,6 +73,6 @@ if __name__ == "__main__":
       [0,-1,float('inf'),float('inf')]
     ]
 
-    solution.walls_and_gates(rooms)
+    Solution().walls_and_gates(rooms)
     
     print(rooms)
